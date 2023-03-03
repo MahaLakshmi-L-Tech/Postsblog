@@ -1,0 +1,24 @@
+.postsContainer {
+  background-image: url(/Components/images/comments.jpg);
+  // margin-left: 550px;
+  .userName {
+    margin-left: 50%;
+  }
+  .Posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // gap: 10%;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .singlePosts {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    .comments {
+      margin-left: 30%;
+    }
+  }
+}

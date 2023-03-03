@@ -1,0 +1,39 @@
+.commentsContainer {
+  background-image: url(/Components/images/comments.jpg);
+  .addcomment {
+    text-decoration: none;
+
+    border: 1px solid rgb(153, 5, 226);
+    padding: 5px;
+    color: white;
+    background-color: rgb(153, 5, 226);
+    border-radius: 10px;
+  }
+  .comments {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    .editcomment {
+      text-decoration: none;
+      border-radius: 10px;
+      color: white;
+      border: 1px solid rgb(153, 5, 226);
+      background-color: rgb(153, 5, 226);
+      padding: 5px;
+    }
+    .editbutton {
+      display: flex;
+      direction: row;
+
+      button {
+        text-decoration: none;
+        border-radius: 10px;
+        margin-left: 20px;
+        color: white;
+        border: 1px solid rgb(153, 5, 226);
+        background-color: rgb(153, 5, 226);
+        padding: 5px;
+      }
+    }
+  }
+}
